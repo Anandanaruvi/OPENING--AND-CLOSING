@@ -78,7 +78,7 @@ plt.axis("off")
 
 
 ```
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/756cb842-0cc6-4461-a45b-bcba8865eab3)
 
 
 
