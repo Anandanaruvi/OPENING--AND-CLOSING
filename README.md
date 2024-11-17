@@ -39,7 +39,7 @@ import matplotlib.pyplot as plt
 
 # Create the structuring element.
 ```
-image = cv2.imread("lion.jpg")  
+image = cv2.imread("fish.jpg")  
 kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 plt.figure(figsize=(10, 5))
@@ -47,7 +47,7 @@ plt.imshow(image_rgb)
 plt.title("Original Image")
 plt.axis("off")
 ```
-![image](https://github.com/user-attachments/assets/6a394870-f1a7-4fb6-ad41-9037a69297c1)
+![image](https://github.com/user-attachments/assets/68b28f9c-c16a-4622-b067-c59342ffb794)
 
 
 
@@ -62,7 +62,7 @@ plt.imshow(opening_image_rgb)
 plt.title("Opening Operation")
 plt.axis("off")
 ```
-![image](https://github.com/user-attachments/assets/8cd2879a-c83d-4ebd-b427-cdc89b298a3a)
+![image](https://github.com/user-attachments/assets/eb48fa82-e52a-46f9-bb36-9d8ebddb80ed)
 
 
 
@@ -78,7 +78,7 @@ plt.axis("off")
 
 
 ```
-![image](https://github.com/user-attachments/assets/048b0e6b-4c6f-4f75-98a2-cc65fde3c8e9)
+![Uploading image.png…]()
 
 
 
